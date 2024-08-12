@@ -10,8 +10,8 @@ Record some tools or packages that I find useful and helpful for development.
 - Develop explainable, interpretable deep learning models.
 
 ## 🔻Visualization
-### [Plotly]([https://plotly.com/python/network-graphs/](https://plotly.com/python/))
-### [PyVis](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01)
+### ▶︎ [Plotly](https://plotly.com/python/network-graphs/](https://plotly.com/python)
+### ▶︎ [PyVis](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01)
 - Visualize interactive network graphs
 
 
