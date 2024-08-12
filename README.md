@@ -66,5 +66,5 @@ model.similarity(query_embedding, passage_embeddings)
 
 
 ##  UI Dashboard
-### [Metabase](https://www.metabase.com/)
+### ▶︎ [Metabase](https://www.metabase.com/)
 
