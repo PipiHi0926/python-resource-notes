@@ -36,7 +36,11 @@ model.similarity(query_embedding, passage_embeddings)
 
 
 
-Hugging Face Transformers
+### ▶︎ [Hugging Face transformers ](https://github.com/huggingface/transformers)
+- You can instantiate ```AutoModelForCausalLM``` model and  ```AutoTokenizer``` 
+- https://huggingface.co/docs/transformers/llm_tutorial
+- Make transformers pipeline easy
+
 
 ## 🔻 UI
 ### ▶︎ [Gradio](https://github.com/gradio-app/gradio)
