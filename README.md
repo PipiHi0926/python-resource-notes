@@ -9,7 +9,7 @@ Record some tools or packages that I find useful and helpful for development.
 ### ▶︎ [Lime](https://github.com/marcotcr/lime) (local interpretable model-agnostic explanations)
 - Develop explainable, interpretable deep learning models.
 
-## 🔻Visualization
+## 🔻Data Visualization
 ### ▶︎ [Plotly](https://plotly.com/python)
 ### ▶︎ [PyVis](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01)
 - Visualize interactive network graphs
