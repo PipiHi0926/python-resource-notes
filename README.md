@@ -2,9 +2,18 @@
 Record some tools or packages that I find useful and helpful for development.
 
 
+
+
+
 ## 🔻Deep Learning
 ### ▶︎ [Lime](https://github.com/marcotcr/lime) (local interpretable model-agnostic explanations)
 - Develop explainable, interpretable deep learning models.
+
+## 🔻Visualization
+### [Plotly]([https://plotly.com/python/network-graphs/](https://plotly.com/python/))
+### [PyVis](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01)
+- Visualize interactive network graphs
+
 
 ## 🔻 NLP
 
@@ -42,7 +51,20 @@ model.similarity(query_embedding, passage_embeddings)
 - Make transformers pipeline easy
 
 
-## 🔻 UI
+
+
+
+## 🔻LLM agent flow
+### ▶︎ [Flowise](https://github.com/FlowiseAI/Flowise)
+### ▶︎ [LangFlow](https://github.com/langflow-ai/langflow)
+
+
+## 🔻 UI (for analysis)
 ### ▶︎ [Gradio](https://github.com/gradio-app/gradio)
 
 ### ▶︎ [Streamlit](https://github.com/streamlit/streamlit)
+
+
+##  UI Dashboard
+### [Metabase](https://www.metabase.com/)
+
