@@ -136,6 +136,7 @@ for i in tqdm(range(100)):
 ### ▶︎ pprint
 - pretty-print，美化dict list, tuple的印出結果(不會擠在一起)
 - 直接把print換成pprint即可實踐
+- 跟print相關的還有可愛的冰淇淋([icecream](https://github.com/gruns/icecream))可以玩玩看XD
 
 ### ▶︎ mypy
 - 輔助實踐type hint，可以命令執行檢查所有的n文件中的類型問題，提早報錯和強化類型檢查
