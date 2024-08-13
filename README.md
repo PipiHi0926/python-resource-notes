@@ -6,6 +6,8 @@ There are many related tools, but I’m only listing the ones I use most frequen
 If you want to learn more, I recommend checking out the following link:
 https://github.com/vinta/awesome-python
 
+(我也放入一些並不直接跟python相關的內容)
+
 ## 🔻Deep Learning
 ### ▶︎ [Pytorch](https://github.com/pytorch/pytorch)
 - 個人認為pytorch相對tensorflow更容易上手
