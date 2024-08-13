@@ -7,6 +7,9 @@ If you want to learn more, I recommend checking out the following link:
 https://github.com/vinta/awesome-python
 
 ## 🔻Deep Learning
+### ▶︎ [Pytorch](https://github.com/pytorch/pytorch)
+- 個人認為pytorch相對tensorflow更容易上手
+
 ### ▶︎ [Lime](https://github.com/marcotcr/lime) (local interpretable model-agnostic explanations)
 - Develop explainable, interpretable deep learning models.
 
@@ -114,7 +117,6 @@ uvicorn main:app --reload
 ### ▶︎ [Metabase](https://www.metabase.com/)
 
 ------------
-# Else: 
 ## 🔻 Proxy (代理工具)
 ### ▶︎[mitmproxy](https://mitmproxy.org/)
 - 開源抓包工具
