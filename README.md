@@ -15,6 +15,8 @@ https://github.com/vinta/awesome-python
 
 ## 🔻Data Visualization
 ### ▶︎ [Plotly](https://plotly.com/python)
+- 建議可結合 [Dash ](https://dash.plotly.com/)去實踐 Dashboard儀表板的網頁應用程式框架
+- 結合Dash不用Javascript就能創造出互動性高的動態圖表
 ### ▶︎ [PyVis](https://towardsdatascience.com/pyvis-visualize-interactive-network-graphs-in-python-77e059791f01)
 - Visualize interactive network graphs
 
