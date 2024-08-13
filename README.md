@@ -15,7 +15,7 @@ https://github.com/vinta/awesome-python
 ### ▶︎ [Pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning?source=post_page-----81af12de9bb7--------------------------------)
 - 基於Pytorch的高級深度學習框架,旨在簡化Pytorch的使用,讓研究人員能夠更專注於核心的研究代碼,而不是重複的樣板代碼
 - 將訓練的各個步驟(初始化、訓練、驗證、測試)封裝成固定的流程,使用者只需要實現這些步驟對應的方法,而不需要關心訓練的細節 (懶人福音QQ)]
-- 加快debug麻煩，免除cpu, gpu那些設定
+- 加快debug麻煩，免除cpu, gpu那些設定，不在需要處理變數與硬體之間的關係
 
 ### ▶︎ [Lime](https://github.com/marcotcr/lime) (local interpretable model-agnostic explanations)
 - Develop explainable, interpretable deep learning models.
