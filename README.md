@@ -1,7 +1,7 @@
 # python-resource-notes
 Record some tools or packages that I find useful and helpful for my development.
 
-
+There are many related tools, but I’m only listing the ones I use most frequently or that I personally prefer ❤️
 
 
 
@@ -65,6 +65,6 @@ model.similarity(query_embedding, passage_embeddings)
 ### ▶︎ [Streamlit](https://github.com/streamlit/streamlit)
 
 
-##  UI Dashboard
+## 🔻 UI Dashboard
 ### ▶︎ [Metabase](https://www.metabase.com/)
 
