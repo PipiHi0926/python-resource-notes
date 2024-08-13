@@ -3,7 +3,8 @@ Record some tools or packages that I find useful and helpful for my development.
 
 There are many related tools, but I’m only listing the ones I use most frequently or that I personally prefer ❤️
 
-
+If you want to learn more, I recommend checking out the following link:
+https://github.com/vinta/awesome-python
 
 ## 🔻Deep Learning
 ### ▶︎ [Lime](https://github.com/marcotcr/lime) (local interpretable model-agnostic explanations)
@@ -58,6 +59,29 @@ model.similarity(query_embedding, passage_embeddings)
 ### ▶︎ [Flowise](https://github.com/FlowiseAI/Flowise)
 ### ▶︎ [LangFlow](https://github.com/langflow-ai/langflow)
 
+## 🔻API
+### ▶︎ FastAPI
+- 被認為是當前最快的 Python 框架之一，[易用且簡潔](https://medium.com/seaniap/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B-%E7%B0%A1%E5%96%AE%E6%98%93%E6%87%82-python%E6%96%B0%E6%89%8B%E7%9A%84fastapi%E4%B9%8B%E6%97%85-ebd09dc0167b)
+- 會自動生成互動式 API 文檔
+- 提供了強大的類型檢查功能，可以與其他工具/套件整合 (待補)
+```
+# pip  install fastapi 
+# pip install uvicorn # ASGI伺服器
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Hello": "FastAPI"}
+```
+- 使用uvicorn來啟動伺服器
+```bash
+# main 是您Python檔案名，app是的FastAPI實例
+
+uvicorn main:app --reload
+```
 
 ## 🔻 UI (for analysis)
 ### ▶︎ [Gradio](https://github.com/gradio-app/gradio)
