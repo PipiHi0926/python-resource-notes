@@ -145,6 +145,33 @@ for i in tqdm(range(100)):
 # pip install mypy
 mypy your_script.py
 ```
+### pickle (or joblib)
+- 保存各種模型、物件、自定義class的工具，讓對象能夠實踐序列化和反序列化
+- 你也可以用來儲存、加載訓練好的機器學習模型
+```
+# 儲存方法
+import pickle
+
+data = [1,{2}] # 各種資料類型
+
+# write with binary (wb) 到 data.pkl檔案
+with open('data.pkl', 'wb') as file:
+    pickle.dump(data, file)
+
+```
+```
+# 讀取方法
+import pickle
+
+# Open the file in binary read mode and load the data
+with open('data.pkl', 'rb') as file:
+    loaded_data = pickle.load(file)
+
+print(loaded_data)
+
+```
+
+
 ------------
 ## 🔻 Proxy (代理工具)
 ### ▶︎[mitmproxy](https://mitmproxy.org/)
