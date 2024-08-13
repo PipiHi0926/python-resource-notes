@@ -16,6 +16,27 @@ https://github.com/vinta/awesome-python
 - Visualize interactive network graphs
 
 
+## 🔻 OCR
+### ▶︎ [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+- 支持中文、數字辨別效果好(經驗)
+- 簡單、效果好
+```
+# pip install easyocr
+
+import easyocr
+
+reader = easyocr.Reader(['ch_tra', 'en'], gpu=True)
+image_path = '路徑'
+result = reader.readtext(image_path)
+
+for (bbox, text, prob) in result:
+    print(bbox)
+    print(text)
+    print(prob)
+```
+### ▶︎ [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+- 純英文辨識能力佳(經驗)、但建議使用EasyOCR即可
+
 ## 🔻 NLP
 
 ### ▶︎ [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
@@ -91,4 +112,23 @@ uvicorn main:app --reload
 
 ## 🔻 UI Dashboard
 ### ▶︎ [Metabase](https://www.metabase.com/)
+
+------------
+# Else: 
+## 🔻 Proxy (代理工具)
+### ▶︎[mitmproxy](https://mitmproxy.org/)
+- 開源抓包工具
+- 支持反向代理，將流量轉發到指定的服務器
+- 可以與python進行交互，可以使用Python編寫腳本來自動化流量處理
+- 自訂HTTP響應
+```
+from mitmproxy import http
+
+def request(flow: http.HTTPFlow) -> None:
+    flow.response = http.Response.make(
+        204,
+        '{"foo":"bar"}',
+        {"Content-Type": "application/json"}
+    )
+```
 
