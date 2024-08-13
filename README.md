@@ -121,7 +121,7 @@ uvicorn main:app --reload
 ### ▶︎ [Metabase](https://www.metabase.com/)
 
 ## 🔻 Simple and handy tools
-### tqdm 
+### ▶︎ tqdm 
 - 印出迴圈執行進度
 ```
 # pip install tqdm
@@ -133,11 +133,11 @@ import time
 for i in tqdm(range(100)):
     time.sleep(0.1)
 ```
-### pprint
+### ▶︎ pprint
 - pretty-print，美化dict list, tuple的印出結果(不會擠在一起)
 - 直接把print換成pprint即可實踐
 
-### mypy
+### ▶︎ mypy
 - 輔助實踐type hint，可以命令執行檢查所有的n文件中的類型問題，提早報錯和強化類型檢查
 - 雖然現在可以用copilot之類輔助，但還是建議可搭配進行靜態類型檢查
 ```
