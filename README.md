@@ -206,6 +206,8 @@ print(loaded_data)
 
 ------------
 ## 🔻 VS Code Extension 
+### ▶︎ GitHub Copilot
+- 偉大，無須多言
 ### ▶︎ Black... (Formatter)
 - 讓code撰寫風格符合PEP 8風格
 - 可參考下面 Ruff
@@ -221,6 +223,10 @@ print(loaded_data)
 - 多人協作專案時，可在 code 上直接看到這行最後的修改是誰改的
 
 ### ▶︎ Git管理系列: [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)、[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+### ▶︎ [Python Debugger](https://code.visualstudio.com/docs/python/debugging)
+
+
 
 
 ## 🔻 Proxy (代理工具)
