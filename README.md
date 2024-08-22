@@ -6,7 +6,21 @@ There are many related tools, but I’m only listing the ones I use most frequen
 If you want to learn more, I recommend checking out the following link:
 https://github.com/vinta/awesome-python
 
-(我也放入一些並不直接跟python相關的內容)
+(我也會放入一些並不直接跟python相關的內容)
+
+
+## 🔻Deep Processing 
+### ▶︎[ Dask](https://www.dask.org/)
+- 提供多核心和分散式+並行執行功能
+- 若資料龐大(大型向量、資料矩陣)，Dask會將其分成區塊，並將這些區塊分佈到電腦上的所有可用核心上
+- 擴展了 pandas、NumPy 和 Spark 等傳統工具的功能，特別是當要處理巨量資料時!!!
+- Dask的儀表板可以幫助你了解你工作程序的狀態
+```
+import dask.dataframe as dd
+
+df = dd.read_csv(path_to_original_data)
+```
+
 
 ## 🔻Deep Learning
 ### ▶︎ [Pytorch](https://github.com/pytorch/pytorch)
