@@ -152,6 +152,18 @@ import time
 for i in tqdm(range(100)):
     time.sleep(0.1)
 ```
+
+### ▶︎ breakpoint() / pdb.set_trace()
+- 在程式中加入後，當程式運行到此處就會暫停，並提供幾個輸入操作指令方便檢查
+```
+# Python 3.7 以前:
+import pdb
+pdb.set_trace()
+
+# Python 3.7 之後:
+breakpoint() # 加在你想斷點的地方
+```
+
 ### ▶︎ pprint
 - pretty-print，美化dict list, tuple的印出結果(不會擠在一起)
 - 直接把print換成pprint即可實踐
@@ -165,7 +177,7 @@ for i in tqdm(range(100)):
 # pip install mypy
 mypy your_script.py
 ```
-### pickle (or joblib)
+### ▶︎ pickle (or joblib)
 - 保存各種模型、物件、自定義class的工具，讓對象能夠實踐序列化和反序列化
 - 你也可以用來儲存、加載訓練好的機器學習模型
 ```
@@ -193,6 +205,24 @@ print(loaded_data)
 
 
 ------------
+## 🔻 VS Code Extension 
+### ▶︎ Black... (Formatter)
+- 讓code撰寫風格符合PEP 8風格
+- 可參考下面 Ruff
+
+
+### ▶︎ pylint / [Ruff](https://github.com/astral-sh/ruff)
+- 當你的程式有問題、不符合期望風格時，底下就會有毛毛蟲(標色波浪底線)輔助提醒
+- 另外推薦Ruff，速度更快、是Python linter + formatter，且已整合更多跟程式風格規範所需的工具(Flake8, Black, isort, autoflake...)
+- 可參考其他[網路文章](https://blog.kyomind.tw/ruff/)的Ruff介紹
+
+### ▶︎ GitLens 
+- 查看 git 紀錄的工具
+- 多人協作專案時，可在 code 上直接看到這行最後的修改是誰改的
+
+### ▶︎ Git管理系列: [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)、[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+
 ## 🔻 Proxy (代理工具)
 ### ▶︎[mitmproxy](https://mitmproxy.org/)
 - 開源抓包工具
