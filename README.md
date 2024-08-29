@@ -245,4 +245,14 @@ def request(flow: http.HTTPFlow) -> None:
         {"Content-Type": "application/json"}
     )
 ```
+------------
+# 其他專案開發工具
+## 🔻 與前端溝通
+### ▶︎ Figma
+- 我主要使用的工具，可以設計、拉出簡單的前端介面，並建立簡單的按鍵、互動、連結等
+- 用來跟前端工程師說明預期內容
+- 可以生產簡單樣板給客戶了解預期介面長相
 
+### ▶︎ [vaadin](https://start.vaadin.com/app/p)
+- java / React
+- 建構網路應用程式和網站的Java Web 框架
